@@ -1,0 +1,61 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(17, 16, 16);
+        color : whitesmoke;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    #game {
+        width: 300px;
+        height: 400px;
+        border: 2px solid #000;
+        position: relative;
+        overflow: hidden;
+        background-color: #f0f0f0;
+    }
+    #player {
+        width: 80px;
+        height: 10px;
+        background-color: #000;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .rock {
+        width: 10px;
+        height: 10px;
+        background-color: #856088;
+        position: absolute;
+    }
+
+    #start-btn, #stop-btn {
+        padding: 10px 20px;
+        margin: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+        transition: 0.3s;
+        display: absolute;
+        width: 200px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 400;
+        border: 1px solid #563C5C;
+        background-color: #856088;
+        color : whitesmoke;
+    }
